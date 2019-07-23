@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.length == 3
     array.insert(-2, "and")
     array.join(", ")
-    text = "Skiwi, durian, and, starfruit"
+    text = "kiwi, durian, and, starfruit"
   text.sub!("and,", "and")
   print text
   end
