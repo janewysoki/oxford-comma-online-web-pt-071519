@@ -8,5 +8,6 @@ def oxford_comma(array)
     array.join(", ")
     text = "Skiwi, durian, and, starfruit"
   text.sub!("and,", "and")
+  print text
   end
 end
